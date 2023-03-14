@@ -22,10 +22,9 @@
         color: #3B497C;
     }
 
-    .main-nav {
-        display: none;
-    }
+    body.light-mode 
 
+ 
 
     #cartoonMe {
         float: none;
@@ -93,5 +92,15 @@
         justify-content: center;
         align-items: center;
         margin-top: 3em;
+    }
+
+
+    body.light-mode .mobile-nav {
+        background-color: #3B497C;
+        color: #fff;
+    }
+
+    body.light-mode #closeModal {
+        color: white;
     }
 }

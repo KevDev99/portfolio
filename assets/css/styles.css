@@ -14,9 +14,13 @@
 }
 
 
-a {
+.link {
     color: white;
     text-decoration: none;
+}
+
+body.light-mode .link {
+    color: #36445B;
 }
 
 
