@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -20,7 +21,7 @@
             <img src="./assets/img/logo.png" alt="logo">
         </a>
         <div class="flex">
-            <nav>
+            <nav class="main-nav">
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -29,9 +30,21 @@
                 </ul>
             </nav>
 
-            <button type="button" role="switch theme" id="themeSwitch" class="btn"><i class="fa fa-sun-o"></i> </button>
+            <nav class="mobile-nav">
+                <ul>
+                    <button id="closeModal">x</button>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
 
+            <button type="button" role="switch theme" id="themeSwitch" class="btn"><i class="fa fa-sun-o"></i> </button>
+            <button type="button" role="switch theme" id="showMobileMenu" class="btn"><i class="fa fa-bars"></i> </button>
         </div>
+
+        
 
 
     </header>
@@ -114,16 +127,16 @@
                             proident consequat nisi laborum occaecat tempor minim. Velit occaecat do proident ullamco
                             qui nulla.</p>
 
-                            <br>
+                        <br>
 
-                            <div class="card-footer">
-                                <a href="/">Read Article</a>
-                            </div>
+                        <div class="card-footer">
+                            <a href="/">Read Article</a>
+                        </div>
 
-                            <br>
+                        <br>
                     </div>
 
-                   
+
                 </article>
                 <article class="card">
                     <img src="https://blog.suitepad.de/hubfs/Verschiedene%20Systeme%20die%20miteinander%20vernetzt%20sind.jpg#keepProtocol"
@@ -135,15 +148,15 @@
                             proident consequat nisi laborum occaecat tempor minim. Velit occaecat do proident ullamco
                             qui nulla.</p>
 
-                            
-                   
-                            <br>
 
-                            <div class="card-footer">
-                                <a href="/">Read Article</a>
-                            </div>
 
-                            <br>
+                        <br>
+
+                        <div class="card-footer">
+                            <a href="/">Read Article</a>
+                        </div>
+
+                        <br>
                     </div>
 
                 </article>
@@ -157,17 +170,17 @@
                             proident consequat nisi laborum occaecat tempor minim. Velit occaecat do proident ullamco
                             qui nulla.</p>
 
-                            
-                            <br>
 
-                            <div class="card-footer">
-                                <a href="/">Read Article</a>
-                            </div>
+                        <br>
 
-                            <br>
+                        <div class="card-footer">
+                            <a href="/">Read Article</a>
+                        </div>
+
+                        <br>
                     </div>
 
-                  
+
                 </article>
 
             </div>

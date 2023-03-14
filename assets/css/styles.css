@@ -41,7 +41,22 @@ html {
     transition: all .3s linear 0s;
 }
 
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    color: #3B497C;
+    transition: all 400ms ease-out;
+    visibility: hidden;
+    opacity: 0;
+}
 
+#showMobileMenu {
+    display: none;
+}
 
 h2 {
     font-size: 3rem;
